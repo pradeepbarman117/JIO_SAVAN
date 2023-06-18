@@ -1,0 +1,21 @@
+.header_wrpr {
+    padding-block: 10px;
+    border-bottom: 2px solid #e9e9e9;
+    padding-inline: 20px;
+    margin-bottom: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1111;
+    background: #f6f6f6;
+  }
+  .header_inner_wrpr {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    justify-content: space-between;
+  }
+  
+  .header_search_bar {
+    flex: 0 1 40%;
+  }
+  
